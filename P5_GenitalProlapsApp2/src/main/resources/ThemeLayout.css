@@ -1,0 +1,18 @@
+
+/*Angiver farven på menuen*/
+.menu-bar {
+    -fx-background-color: derive(#ffffff3b,20%);
+}
+
+.context-menu {
+    -fx-background-color: derive(#ffffff,50%);
+}
+
+.menu-bar .label {
+    -fx-font-size: 14pt;
+    -fx-font-family: "System";
+    -fx-text-fill: black;
+}
+
+
+

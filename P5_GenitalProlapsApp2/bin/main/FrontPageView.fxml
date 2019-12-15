@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <FlowPane hgap="20.0" prefHeight="200.0" prefWidth="200.0" vgap="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="30.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Her på forsiden kan du komme ind på mere om din tilstand. " wrappingWidth="1085.3310546875">
+               <font>
+                  <Font name="System Italic" size="27.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="I bunden kan du klikke på anatomi om underlivet, behandlingsforløb, ofte stillede spørgsmål og spørgeskema. " wrappingWidth="1085.3310546875">
+               <font>
+                  <Font name="System Italic" size="27.0" />
+               </font>
+            </Text>
+            <Text layoutX="30.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Øverst kan du søge på et specifikt søgeord og ved tryk på tilbage, vil du komme tilbage til den forrige besøge side." wrappingWidth="1085.3310546875">
+               <font>
+                  <Font name="System Italic" size="27.0" />
+               </font>
+            </Text>
+         </children>
+         <padding>
+            <Insets left="20.0" top="40.0" />
+         </padding>
+      </FlowPane>
+   </center>
+   <top>
+      <Label text="Forside" BorderPane.alignment="CENTER_LEFT">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets left="10.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+</BorderPane>
